@@ -1,38 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/png">
+        <title>Links</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="animated-background">
+            <div id="stars1"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </section>
 
-<head>
-    <meta charset="utf-8">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/png">
-    <title>Links</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-</head>
+        <div class="min-h-full flex-h-center" id="background_div">
+            <input type="hidden" value="https://bio.link" id="app-url">
+                <input type="hidden" value="null" id="is-featured">
+                    <canvas id="bg-canvas" class="background-overlay"></canvas>
+                </input>
+            </input>
 
-<body>
-    <section class="animated-background">
-        <div id="stars1"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-    </section>
+            <div class="mt-48 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="https://avatars.githubusercontent.com/u/84080499?v=4" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Shamal Lakshan</h2>
+                       
+                <div class="mt-24">
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.linkedin.com/in/shamallakshan/" data-id="261652" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/linkedin.png" src="assets/images/linkedin.png" alt="LinkedIn @ [User]"/>
+                            <span class=" item-title text-center">LinkedIn</span>
+                        </a>
+                    </div>        
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://github.com/ShamalLakshan" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/github.png" src="assets/images/github.png" alt="GitHub @ [User]"/>
+                            <span class=" item-title text-center">GitHub</span>
+                        </a>
+                    </div>    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.credly.com/users/shamallakshan" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/credly.png" src="assets/images/credly.png" alt="Credly @ [User]"/>
+                            <span class=" item-title text-center">Credly</span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://blog.shamallakshan.com/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="" src="https://www.pikpng.com/pngl/m/4-47386_website-logos-download-logo-website-png-clipart.png " alt="Blog"/>
+                            <span class=" item-title text-center">Blog</span>
+                        </a>
+                    </div>   
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://shamallakshan.com/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="" src="https://p1.hiclipart.com/preview/323/743/633/icon-person-icon-design-symbol-avatar-silhouette-character-cartoon-head-png-clipart.jpg" alt="Web`"/>
+                            <span class=" item-title text-center">Personal Website</span>
+                        </a>
+                    </div>  
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://twitter.com/JMShamalLakshan" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s"" alt="Twitter"/>
+                            <span class=" item-title text-center">Twitter</span>
+                        </a>
+                    </div>                                        
+                </div>                                                                                
+            </div>
+        </div>
+    </body>
 
-    <div class="min-h-full flex-h-center" id="background_div">
-        <input type="hidden" value="https://bio.link" id="app-url">
-        <input type="hidden" value="null" id="is-featured">
-        <canvas id="bg-canvas" class="background-overlay"></canvas>
-        </input>
-        </input>
-    </div>
-    </div>
-    </div>
-</body>
-
-<!--
-A different snowfall    
-<script  src="assets/js/snowfall.js"></script>
--->
-
+    <!--
+    A different snowfall    
+    <script  src="assets/js/snowfall.js"></script>
+    -->
 </html>
